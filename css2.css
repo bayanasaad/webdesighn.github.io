@@ -1,0 +1,401 @@
+ 
+/*
+ .div{
+
+overflow-x: visible;
+ }
+*/
+
+/*
+  ==========================================
+       Home / Navbar
+  ==========================================
+*/
+
+html {
+  min-width: 350px;
+}
+
+.navbar{
+ 
+padding: 50px;
+}
+ 
+.navbar  li {
+margin-left: 20px; 
+font-weight: 500;
+color: black;
+}
+
+ 
+.navbar  li  a:hover {
+background-color: rgb(0, 153, 255);
+ }
+
+ .navbar li:last-child{
+  background-color: rgb(0, 153, 255);
+  border-radius: 17px;
+  padding: 5px;
+}
+
+
+/*
+  ==========================================
+       Home / background /text / search
+  ==========================================
+*/
+ 
+ .con1 h1{
+  margin: 20px;
+ }
+
+.con1 p{
+  margin: 20px;
+ }
+
+.con1 .btn{
+  border-radius: 17px;
+}
+
+.con1 input{
+ border-radius: 17px;
+}
+/*
+  ==========================================
+       Home / background / List
+  ==========================================
+*/
+ 
+ .con1{
+  margin-top: 80px ;
+}
+
+.con1 li {
+margin: 5px;
+}
+
+.list-group .right  {
+ display: block;
+ margin-left: 15px; float: right;
+ margin-left: 15px;
+}
+
+.list-group .right img {
+width: 30px;
+}
+
+.list-group .color{
+  margin-left: 20px;
+ margin-top: 5px;
+ padding: 5px;
+ border-radius: 10px;
+}
+
+
+/*------- background/img -------*/
+.header svg {
+  margin-top: -120px;
+}
+
+/*
+  ==========================================
+                    Card / Learn More
+  ==========================================
+*/
+
+#containerCnt2 {
+  background-color: #f1eeee;
+padding: 30px;
+}
+.card-deck{
+ margin: 60px;
+}
+
+.card-body{
+  border-top: 5px solid rgb(0, 153, 255);
+  text-align: center;
+}
+ 
+
+.card-text:last-child{
+  color: rgb(0, 153, 255);
+}
+
+  @media screen and (max-width:992px){
+.con2 .card{
+  margin-top:  60px;
+  
+}
+
+}
+
+
+/*
+  ==========================================
+                    About Us
+  ==========================================
+*/
+
+.con3{
+margin: 150px auto; 
+}
+
+ .con3 img{
+margin-top: -40px  ; 
+float:right;
+text-align: center;
+
+}
+
+
+ .con3  img{
+ width: 100%;
+
+
+}
+.con3 .row{
+  margin: 30px auto
+}
+
+.con3 .pContent{
+  display: flex;
+  align-items: center;
+}
+
+
+/*-----------------------------------*/
+
+ @media screen and (min-width:993px){
+.on-web {
+  display: block;
+}
+
+.on-mobile {
+  display: none;
+  
+}
+
+}
+
+ @media screen and (max-width:992px){
+.con3 img{
+  margin-top:  60px;
+}
+ .on-web{
+  display: none;
+  text-align: center;
+}
+
+.on-mobile {
+display: block;
+text-align: center;
+  
+}
+
+}
+
+
+/*
+  ==========================================
+                 Pricing  
+  ==========================================
+*/
+
+
+
+.con4 .center1{
+
+  color: white;
+}
+
+.containerCnt4 {
+
+position: relative;
+
+}
+.containerCnt4 .con4{
+  position: absolute;
+  top: 0;
+  text-align: center;
+  margin: 120px auto;
+  width: 100%;
+}
+.con4 .fa-play-circle{
+font-size: 90px;
+
+}
+
+.con5 .center2{
+  text-align: center; 
+}
+
+
+
+.con5 .card-deck{
+ 
+width: 5000px;
+}
+
+ 
+
+@media screen and (max-width:992px){
+.con5 .card{
+  margin-top:  60px;
+
+}
+
+
+.containerCnt4 .con4{
+  margin: 0px; 
+}
+ 
+ 
+
+}
+
+ 
+/*
+  ==========================================
+               Our partners
+  ==========================================
+*/
+
+.con6{
+  margin-top: 100px;
+  text-align: center;
+}
+
+
+.con6 img {
+  width: 200px; 
+  margin: 30px;            
+}
+
+
+/*
+  ==========================================
+                  Question/ Accordion 
+  ==========================================
+
+*/
+
+#containerCnt7{
+background: rgb(31,139,218);
+background: linear-gradient(90deg, rgba(31,139,218,1) 0%, rgba(0,194,255,1) 34%);}
+
+.con7{
+ padding : 40px;
+text-align: center;
+} 
+
+.con7 h1{
+  padding : 40px; 
+}
+
+ 
+.con7 .btn{
+border-radius: 5px;
+background-color: white;
+color: white;
+width: 100%;
+text-align: left;
+box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+background: rgb(6,188,245);
+background: linear-gradient(90deg, rgba(6,188,245,1) 0%, rgba(0,194,255,1) 100%);
+}
+
+.con7 .card-body{
+  background: none;
+  border: none;
+  text-align: left;
+  color: white;
+}
+
+.con7 p a::after{
+float: right;
+color: white;
+content: "+"; 
+font-size: 25px;
+
+}
+.con7 p:active a::after, .con7 p:visited a::after{
+content: "-";
+}
+
+
+/*
+  ==========================================
+                  Search / Get Start 
+  ==========================================
+*/
+
+
+.con8 {
+  margin-top: 80px;
+}
+
+
+.con8 h1{
+ padding: 20px;
+}
+
+.con8 button.btn{
+ border-radius: 20px;
+ padding: 10px 30px ;
+ box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+
+ }
+
+ .con8 .form-control{
+  width: 100%;
+  border-radius: 20px;
+  padding: 20px 30px;
+ }
+
+.con8 form{
+  padding: 40px; 
+}
+
+.con8 h3{
+  padding: 50px; 
+}
+
+
+
+
+/*
+  ==========================================
+                  Footer 
+  ==========================================
+*/
+
+
+.con9 {
+  margin-top: 100px;
+}
+
+.con9 img{
+  margin-bottom: 20px;
+}
+
+ 
+
+.footer-copyright{
+  border: 1px solid none;
+  background-color: #eaf4fd;
+  margin-top: 90px;
+}
+
+
+ @media screen and (max-width:992px){
+.con9 .text-uppercase{
+  margin-top:  40px;
+}
+.con4 .fa-play-circle{
+font-size: 30px;
+}
+ 
+ 
+}
+
+
